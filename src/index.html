@@ -2,26 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Project Starter</title>
+    <title>Bransen Resumé</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
-    <meta name="description" content="TODO: A starter project for ..." />
+    <meta name="description" content="A website featuring me and all of my accomplishment to date." />
 
     <link rel="stylesheet" href="./stylesheets/main.css" />
   </head>
 
   <body>
-    <!-- Your HTML goes here -->
-    <h1 class="display-2 text-center my-5 py-5">
-      <span class="d-block py-5">
-        <i class="bi bi-filetype-html text-primary"></i>
-        <i class="bi bi-filetype-css text-danger"></i>
-        <i class="bi bi-filetype-js text-success"></i>
-      </span>
-
-      Welcome to CS 2350!
-    </h1>
-
+    <nav class="navbar navbar-expand-lg bg-success-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bransen Erickson</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./work.html">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./references.html">References</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact Me
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tel:+18014441215">Phone: 801-444-1215</a></li>
+                <li><a class="dropdown-item" href="mailto:bransenerickson02@gmail.com">Email: bransenerickson02@gmail.com</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/bransen-erickson" target="_blank">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero container-fluid bg-dark text-light text-center p-3 mb-2">
+      <div class="display-1 pb-4">My Resumé Project</div>
+      <p class="display-6">A project designed and implemented by me in order to show the skills that I have acquired from a variety of different places including work, school, and my personal life.</p>
+    </div>
+    <main class="container bg-secondary rounded p-2 my-2">
+      <div class="px-4">
+        <p class="text-light m-0">This project started as a final project for my web development course I took in college. I decided that I wanted to keep updating it as I learned more and gained more experience. I wanted a space where I could put everything about me and show potential employers that I have a useful skillset.</p>
+      </div>
+    </main>
     <script type="module" src="./javascripts/main.js"></script>
   </body>
 </html>
